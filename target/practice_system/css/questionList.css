@@ -1,0 +1,168 @@
+/*********** 选择上传试题类型 **********/
+#q_type {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#q_type h3{
+    margin-left: 10px;
+}
+#q_type ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#q_type ul li {
+    width: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 7px;
+    border: 1px solid #e45600;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+#q_type .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.selected {
+    color: white;
+    border: 1px solid #e45600;
+    background-color: #e45600;
+}
+
+/*********** 可变iframe **********/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中 */
+    width: 100%;
+    height: 100%;
+}
+
+#change_box{
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#changeContent{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#composeButtonContainer {
+    width: 100%;
+    text-align: center;
+}
+
+/*!*********** 表格区域 **********!*/
+/*#tableTh tr:first-child {*/
+/*    background-color: #eee;*/
+/*}*/
+
+/*table td {*/
+/*    width: 100px;*/
+/*    height: 25px;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    border: 1px solid #eee;*/
+/*}*/
+
+/*.qName {*/
+/*    color: #409eff;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!*********** 展开行 **********!*/
+/*.open_tr {*/
+/*    display: none;*/
+/*}*/
+
+/*.qDetails{*/
+/*    width: 550px;*/
+/*    padding: 0 10px;*/
+/*    border: 1px solid #1BBC9B;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*.qDetails h4{*/
+/*    color: #fff;*/
+/*    margin: 0;*/
+/*    padding: 15px;*/
+/*    background-color: #1BBC9B;*/
+/*}*/
+
+/*!*********** 按钮 **********!*/
+/*.enter_btn {*/
+/*    cursor: pointer;*/
+/*    outline: none;*/
+/*    color: #409eff;*/
+/*    border-radius: 15px;*/
+/*    background-color: #ecf5ff;*/
+/*    border: 1px solid #b3d8ff;*/
+/*}*/
+
+/*.enter_btn:hover{*/
+/*    color: white;*/
+/*    background-color: #409eff;*/
+/*}*/
+
+/*!*********** 分页区域 **********!*/
+/*#changePages {*/
+/*    margin: 25px auto;*/
+/*    text-align: center;*/
+/*    color: #606266;*/
+/*    font-size: 15px;*/
+/*    font-family: 宋体;*/
+/*}*/
+
+/*#changePages a {*/
+/*    text-align: center;*/
+/*    margin: 30px 5px;*/
+/*    padding: 5px;*/
+/*    border-radius: 5px;*/
+/*    background-color: #f4f4f5;*/
+/*    text-decoration: none;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#composeButton {*/
+/*    position: fixed;*/
+/*    right: 20px;*/
+/*    bottom: 20px;*/
+/*    padding: 10px 20px;*/
+/*    background-color: #e45600;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    font-size: 14px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#changeContent{*/
+/*    width: 100%;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*********** 提示信息 **********/
+.info_msg{
+    display: block;
+    width: 710px;
+    padding: 10px 5px;
+    font-size: 13px;
+    color: #409eff;
+    border: 1px solid #b3d8ff;
+    border-radius: 5px;
+    background-color: #ecf5ff;
+}

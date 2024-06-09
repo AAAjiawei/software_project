@@ -1,0 +1,86 @@
+/*********** 选中试题分类 **********/
+#nav li:nth-child(2) {
+    color: white;
+    background-color: #3c4c5f;
+    border-bottom: 3px solid #e45600;
+}
+
+/*********** 左边试题详情部分 **********/
+#left_box {
+    float: left;
+    width: 45%;
+    height: 600px;
+}
+
+#first_a {
+    width: 120px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #409eff;
+    text-decoration: none;
+}
+
+#question_content {
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+
+#question_content h2 {
+    font-size: 16px;
+}
+
+.question_box {
+    color: #5a676f;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.keyword {
+    color: #333;
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/*********** 右边运行代码部分 **********/
+#right_box {
+    float: left;
+    width: 55%;
+    height: 600px;
+    color: white;
+    background-color: #272822;
+}
+
+/*********** 运行结果对话框 **********/
+#compile_dialog {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/*********** 提交按钮 **********/
+.add_btn {
+    color: #fff;
+    padding: 7px 14px;
+    border: 1px solid #409eff;
+    background-color: #409eff;
+}

@@ -1,0 +1,26 @@
+/*********** 选择上传试题类型 **********/
+#q_type ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#q_type ul li {
+    float: left;
+    cursor: pointer;
+    padding: 7px;
+    margin-right: 3px;
+    border: 1px solid #e45600;
+    font-size: 13px;
+}
+
+.selected {
+    color: white;
+    border: 1px solid #e45600;
+    background-color: #e45600;
+}
+
+/*********** 可变iframe **********/
+#changeContent{
+    margin-top: 20px;
+    margin-left: 30px;
+}
